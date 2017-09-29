@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+#main_nav li{
+
+}
+
+#top{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#top_top{
+    display : inline-flex;
+    justify-content: space-around;
+}
+
+#top_bottom{
+    display: flex;
+    justify-content: center;
+}
+
+#bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#bottom_headline{
+    text-align: center;
+}
+
+#bottom_trending {
+    display: flex;
+    justify-content: space-around;
+}
+
+#bottom_right img{
+    width: 200px;
+    height: 150px;
+}
+
+#bottom_left img{
+    height: 100px;
+    width: 150px;
+}
+
+#bottom_info{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#bottom_info li{
+    display: inline;
+}
+
+footer{
+    text-align: center;
+    background: blue;
+    color: white;
+}
